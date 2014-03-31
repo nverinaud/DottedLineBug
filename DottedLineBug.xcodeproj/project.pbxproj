@@ -16,22 +16,7 @@
 		374DBD1918E5D5FE003E385B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 374DBD1718E5D5FE003E385B /* Main.storyboard */; };
 		374DBD1C18E5D5FE003E385B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 374DBD1B18E5D5FE003E385B /* ViewController.m */; };
 		374DBD1E18E5D5FE003E385B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 374DBD1D18E5D5FE003E385B /* Images.xcassets */; };
-		374DBD2518E5D5FE003E385B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374DBD2418E5D5FE003E385B /* XCTest.framework */; };
-		374DBD2618E5D5FE003E385B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374DBD0518E5D5FE003E385B /* Foundation.framework */; };
-		374DBD2718E5D5FE003E385B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374DBD0918E5D5FE003E385B /* UIKit.framework */; };
-		374DBD2F18E5D5FE003E385B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 374DBD2D18E5D5FE003E385B /* InfoPlist.strings */; };
-		374DBD3118E5D5FE003E385B /* DottedLineBugTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 374DBD3018E5D5FE003E385B /* DottedLineBugTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		374DBD2818E5D5FE003E385B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 374DBCFA18E5D5FE003E385B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 374DBD0118E5D5FE003E385B;
-			remoteInfo = DottedLineBug;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		374DBD0218E5D5FE003E385B /* DottedLineBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DottedLineBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,11 +33,7 @@
 		374DBD1A18E5D5FE003E385B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		374DBD1B18E5D5FE003E385B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		374DBD1D18E5D5FE003E385B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		374DBD2318E5D5FE003E385B /* DottedLineBugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DottedLineBugTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		374DBD2418E5D5FE003E385B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		374DBD2C18E5D5FE003E385B /* DottedLineBugTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DottedLineBugTests-Info.plist"; sourceTree = "<group>"; };
-		374DBD2E18E5D5FE003E385B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		374DBD3018E5D5FE003E385B /* DottedLineBugTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DottedLineBugTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,16 +47,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		374DBD2018E5D5FE003E385B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				374DBD2518E5D5FE003E385B /* XCTest.framework in Frameworks */,
-				374DBD2718E5D5FE003E385B /* UIKit.framework in Frameworks */,
-				374DBD2618E5D5FE003E385B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -83,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				374DBD0B18E5D5FE003E385B /* DottedLineBug */,
-				374DBD2A18E5D5FE003E385B /* DottedLineBugTests */,
 				374DBD0418E5D5FE003E385B /* Frameworks */,
 				374DBD0318E5D5FE003E385B /* Products */,
 			);
@@ -93,7 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				374DBD0218E5D5FE003E385B /* DottedLineBug.app */,
-				374DBD2318E5D5FE003E385B /* DottedLineBugTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,24 +103,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		374DBD2A18E5D5FE003E385B /* DottedLineBugTests */ = {
-			isa = PBXGroup;
-			children = (
-				374DBD3018E5D5FE003E385B /* DottedLineBugTests.m */,
-				374DBD2B18E5D5FE003E385B /* Supporting Files */,
-			);
-			path = DottedLineBugTests;
-			sourceTree = "<group>";
-		};
-		374DBD2B18E5D5FE003E385B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				374DBD2C18E5D5FE003E385B /* DottedLineBugTests-Info.plist */,
-				374DBD2D18E5D5FE003E385B /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -172,24 +123,6 @@
 			productReference = 374DBD0218E5D5FE003E385B /* DottedLineBug.app */;
 			productType = "com.apple.product-type.application";
 		};
-		374DBD2218E5D5FE003E385B /* DottedLineBugTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 374DBD3718E5D5FE003E385B /* Build configuration list for PBXNativeTarget "DottedLineBugTests" */;
-			buildPhases = (
-				374DBD1F18E5D5FE003E385B /* Sources */,
-				374DBD2018E5D5FE003E385B /* Frameworks */,
-				374DBD2118E5D5FE003E385B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				374DBD2918E5D5FE003E385B /* PBXTargetDependency */,
-			);
-			name = DottedLineBugTests;
-			productName = DottedLineBugTests;
-			productReference = 374DBD2318E5D5FE003E385B /* DottedLineBugTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -198,11 +131,6 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Nicolas VERINAUD";
-				TargetAttributes = {
-					374DBD2218E5D5FE003E385B = {
-						TestTargetID = 374DBD0118E5D5FE003E385B;
-					};
-				};
 			};
 			buildConfigurationList = 374DBCFD18E5D5FE003E385B /* Build configuration list for PBXProject "DottedLineBug" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -218,7 +146,6 @@
 			projectRoot = "";
 			targets = (
 				374DBD0118E5D5FE003E385B /* DottedLineBug */,
-				374DBD2218E5D5FE003E385B /* DottedLineBugTests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,14 +158,6 @@
 				374DBD1E18E5D5FE003E385B /* Images.xcassets in Resources */,
 				374DBD1018E5D5FE003E385B /* InfoPlist.strings in Resources */,
 				374DBD1918E5D5FE003E385B /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		374DBD2118E5D5FE003E385B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				374DBD2F18E5D5FE003E385B /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,23 +174,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		374DBD1F18E5D5FE003E385B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				374DBD3118E5D5FE003E385B /* DottedLineBugTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		374DBD2918E5D5FE003E385B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 374DBD0118E5D5FE003E385B /* DottedLineBug */;
-			targetProxy = 374DBD2818E5D5FE003E385B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		374DBD0E18E5D5FE003E385B /* InfoPlist.strings */ = {
@@ -288,14 +191,6 @@
 				374DBD1818E5D5FE003E385B /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		374DBD2D18E5D5FE003E385B /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				374DBD2E18E5D5FE003E385B /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -397,46 +292,6 @@
 			};
 			name = Release;
 		};
-		374DBD3818E5D5FE003E385B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DottedLineBug.app/DottedLineBug";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DottedLineBug/DottedLineBug-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "DottedLineBugTests/DottedLineBugTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		374DBD3918E5D5FE003E385B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DottedLineBug.app/DottedLineBug";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DottedLineBug/DottedLineBug-Prefix.pch";
-				INFOPLIST_FILE = "DottedLineBugTests/DottedLineBugTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -456,14 +311,7 @@
 				374DBD3618E5D5FE003E385B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		374DBD3718E5D5FE003E385B /* Build configuration list for PBXNativeTarget "DottedLineBugTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				374DBD3818E5D5FE003E385B /* Debug */,
-				374DBD3918E5D5FE003E385B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

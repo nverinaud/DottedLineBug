@@ -11,6 +11,8 @@
 @interface ViewController ()
 @property (strong, nonatomic) IBOutlet UILabel *label;
 
+@property (nonatomic, copy) NSString *text;
+
 @end
 
 @implementation ViewController
@@ -18,21 +20,23 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+	self.text = self.label.text;
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
 - (IBAction)sliderValueChanged:(UISlider *)sender
 {
 	UIColor *color = [UIColor colorWithHue:sender.value
 								saturation:1
 								brightness:1
 									 alpha:1];
+	
 	self.label.textColor = color;
+	
+	/* The following works as a workaround. */
+//	NSAttributedString *text = [[NSAttributedString alloc] initWithString:self.text attributes:@{ NSForegroundColorAttributeName : color }];
+//	self.label.attributedText = text;
 }
 
 @end
